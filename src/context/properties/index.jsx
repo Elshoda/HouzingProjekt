@@ -7,7 +7,7 @@ const PropertiesContext=createContext()
 const PropertiesProvider = ({childern}) => {
     const[state,dispatch]=useReducer(reducer,value)
   return (
-    <PropertiesContext.Provider>
+    <PropertiesContext.Provider value={[state,dispatch]}>
       {childern}
     </PropertiesContext.Provider>
   );
