@@ -4,7 +4,7 @@ import { Container } from './style';
 const Properties = () => {
   return (
     <Container>
-      pr
+     <h1>Properties</h1> 
     </Container>
   );
 }

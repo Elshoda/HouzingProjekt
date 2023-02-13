@@ -13,4 +13,7 @@ body{
   --colorSecondary:#696969;
   /* bg */
   --backgroundPrimary:#0061DF;
+  /* paddin;g */
+
+  --padding:1vh 130px
 }
