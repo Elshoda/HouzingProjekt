@@ -11,7 +11,10 @@ body{
   --colorSecondary:#696969;
   /* bg */
   --backgroundPrimary:#0061DF;
-  /* paddin;g */
+  /* padding */
 
   --padding:0vh 130px
+}
+.hgh{
+  color: #fa8c1e;
 }
