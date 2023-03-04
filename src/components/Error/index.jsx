@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container } from './style';
 
-const Home = () => {
+const Error = () => {
   return (
     <Container>
-      <h1>Home</h1>
+      <h1>404</h1>
+      <h1>Not found</h1>
     </Container>
   );
 }
 
-export default Home;
+export default Error;
