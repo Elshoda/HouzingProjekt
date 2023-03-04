@@ -1,10 +1,10 @@
 import React from 'react';
-import { Container } from './style';
+import { Container, ImageError } from './style';
 
 const Error = () => {
   return (
     <Container>
-      <h1>404</h1>
+      <ImageError>404</ImageError>
       <h1>Not found</h1>
     </Container>
   );
